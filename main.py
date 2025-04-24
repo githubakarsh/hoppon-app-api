@@ -35,7 +35,7 @@ def email_notifications():
     return 'user notified by email'
 
 @app.route('/sms-notifications')
-def sms_notification():
+def sms_notifications():
     return 'user nofified by sms'
 
 if __name__ == '__main__':
