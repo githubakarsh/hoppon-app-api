@@ -30,7 +30,13 @@ def user_signup():
 def user_logout():
     return 'user logout'
 
+@app.route('/email-notifications')
+def email_notifications():
+    return 'user notified by email'
 
+@app.route('/sms-notifications')
+def sms_notification():
+    return 'user nofified by sms'
 
 if __name__ == '__main__':
     app.run()
